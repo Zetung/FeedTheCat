@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FeedTheCat</string>
+    <string name="button_feed">Feed</string>
+    <string name="text_view_score">Satiety: %d</string>
+
+    <string name="developer_info">Касперович, 951002 лаба 1</string>
+    <string name="results">Results</string>
+    <string name="new_game">New game</string>
+    <string name="developer">Developers</string>
+    <string name="sign_out">Sign out</string>
+
+    <string name="text_password">password</string>
+    <string name="text_login">email</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Create account</string>
+    <string name="error_auth_empty">login or password is empty</string>
+    <string name="error_auth_some">Errors</string>
+
+</resources>

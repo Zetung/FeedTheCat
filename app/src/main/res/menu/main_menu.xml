@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/new_game_settings"
+        android:orderInCategory="1"
+        android:title="@string/new_game" />
+    <item
+        android:id="@+id/results_settings"
+        android:orderInCategory="2"
+        android:title="@string/results" />
+    <item
+        android:id="@+id/developer_settings"
+        android:orderInCategory="4"
+        android:title="@string/developer" />
+    <item
+        android:id="@+id/sign_out_settings"
+        android:orderInCategory="5"
+        android:title="@string/sign_out" />
+</menu>
