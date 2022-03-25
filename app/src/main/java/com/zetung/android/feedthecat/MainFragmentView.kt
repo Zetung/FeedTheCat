@@ -53,6 +53,12 @@ class MainFragmentView : Fragment(){
         return view
     }
 
+    override fun onPause() {
+        setFragmentResult("shareSession",
+            bundleOf("shareScore" to currentIndex))
+        super.onPause()
+    }
+
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onDestroy() {
         postUserSession()

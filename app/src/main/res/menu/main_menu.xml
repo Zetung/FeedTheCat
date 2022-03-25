@@ -9,6 +9,10 @@
         android:orderInCategory="2"
         android:title="@string/results" />
     <item
+        android:id="@+id/share_settings"
+        android:orderInCategory="3"
+        android:title="@string/share" />
+    <item
         android:id="@+id/developer_settings"
         android:orderInCategory="4"
         android:title="@string/developer" />
